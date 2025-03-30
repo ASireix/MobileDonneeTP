@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Résumé des informations"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email : "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom d'utilisateur : "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_nom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom : "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_telephone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Téléphone : "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_date_naissance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date de naissance : "
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_interets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Centres d'intérêts : "
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/btn_retour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retour"
+                android:textColor="@color/black"
+
+                android:background="@drawable/rounded_background"
+            android:layout_marginEnd="20dp"/>
+
+            <Button
+                android:id="@+id/btn_valider"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+
+                android:background="@drawable/rounded_background"
+
+                android:text="Valider" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

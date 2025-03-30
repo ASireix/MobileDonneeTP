@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Planning du jour"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Créneau 08h-10h -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="08h-10h"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edit_08_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Activité"
+        android:background="@drawable/rounded_background"
+        android:textColor="@color/black"/>
+
+    <!-- Créneau 10h-12h -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="10h-12h"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edit_10_12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Activité"
+        android:background="@drawable/rounded_background"
+        android:textColor="@color/black"/>
+
+    <!-- Créneau 14h-16h -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14h-16h"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edit_14_16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Activité"
+        android:background="@drawable/rounded_background"
+        android:textColor="@color/black"/>
+
+    <!-- Créneau 16h-18h -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="16h-18h"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edit_16_18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Activité"
+        android:background="@drawable/rounded_background"
+        android:textColor="@color/black"/>
+
+    <!-- Bouton pour valider et sauvegarder -->
+    <Button
+        android:id="@+id/btn_save_planning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valider"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_background"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/connexion_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout_main"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/gradient_background">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/profile_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/log_name"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="50dp"/>
+
+        <EditText
+            android:id="@+id/login_user"
+            android:layout_margin="@dimen/space_insc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Nom d'utilisateur"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey"
+            android:background="@drawable/rounded_background"
+            />
+        <EditText
+            android:id="@+id/login_mdp"
+            android:layout_margin="@dimen/space_insc"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Mot de passe"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey"
+            android:background="@drawable/rounded_background"
+            />
+
+        <Button
+            android:id="@+id/login_button_submit"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="@string/log_name"
+            android:textColor="@color/black"
+            android:background="@drawable/rounded_background"/>
+    </LinearLayout>
+</FrameLayout>
